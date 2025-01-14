@@ -1,0 +1,66 @@
+# User-specific files
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# ASP.NET Core
+wwwroot/
+**/wwwroot/
+
+# Publish output
+publish/
+
+# User secrets
+secrets/
+
+# Logs
+*.log
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# JetBrains Rider
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Visual Studio for Mac
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Thumbs.db
+Thumbs.db
+
+# JetBrains Rider
+.idea/
+
+# npm packages
+node_modules/
+
+# Yarn integrity file
+.yarn-integrity
+
+# Coverage directories
+coverage/
+
+# .NET Core build cache
+.dotnet/
+
+# Ignore any other temporary files created by tooling
+*.swp

@@ -1,0 +1,12 @@
+﻿
+@code {
+    [Parameter]
+    public string? CardTitle { get; set; } = "";
+    [Parameter]
+    public string? CardValue { get; set; } = "";
+}
+<div class="card">
+    <span class="card-icon">📋</span>
+    <p class="card-value">@CardValue</p>
+    <p class="card-title">@CardTitle</p>
+</div>

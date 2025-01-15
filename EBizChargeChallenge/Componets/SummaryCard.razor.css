@@ -1,0 +1,12 @@
+.card {
+    width: 281px;
+    height: 178px;
+    flex-grow: 0;
+    padding: 35.5px 112.3px 42.5px 44.5px;
+    border: solid 1px #c4cdd5;
+}
+
+.card-title {
+    font-size: .5rem;
+    margin-bottom: 10px;
+}

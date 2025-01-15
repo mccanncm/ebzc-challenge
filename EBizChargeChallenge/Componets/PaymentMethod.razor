@@ -1,0 +1,34 @@
+﻿<div class="sale-select-tab">
+    <div @onclick="() => SetActiveTab(1)" class="pay-by-cc @GetTabClass(1)">Pay by Credit Card</div>
+    <div @onclick="() => SetActiveTab(2)" class="pay-by-ach @GetTabClass(2)">Pay by Bank Account</div>
+</div>
+<div class="pay-by-cc-content @GetTabClass(1)">
+    <div class="card-type">
+        <div @onclick="() => SetActiveCardMethodTab(1)" class="saved-card-method @GetActiveCardMethodClass(1)">Saved Card</div>
+        <div @onclick="() => SetActiveCardMethodTab(2)" class="new-card-method @GetActiveCardMethodClass(2)">New Card</div>
+    </div>
+    
+</div>
+<div class="pay-by-ach-content @GetTabClass(2)">
+    Add ACH Content Here
+</div>
+
+
+@code {
+    private int ActiveTab = 1;
+    private int ActiveCardMethodTab = 1;
+    private void SetActiveTab(int tab){
+        ActiveTab = tab;
+    }
+    private void SetActiveCardMethodTab(int tab){
+        ActiveCardMethodTab = tab;
+    }
+
+    private string GetTabClass(int tab){
+        return ActiveTab == tab ? "active" : "";
+    }
+
+    private string GetActiveCardMethodClass(int tab){
+        return ActiveCardMethodTab == tab ? "active" : "";
+    }
+}

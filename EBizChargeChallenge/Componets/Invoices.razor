@@ -1,0 +1,58 @@
+﻿@using EBizChargeChallenge.Data.Models;
+<div class="invoice-container">
+    <table class="invoice-table">
+        <thead>
+            <tr>
+                <th>Select</th>
+                <th>Invoice #</th>
+                <th>Date <img src="images/polaris-icon-minor-mono-dropdown.png" alt="Dropdown Icon" /></th>
+                <th>Due Date <img src="images/polaris-icon-minor-mono-dropdown.png" alt="Dropdown Icon" /></th>
+                <th>Invoice Total <img src="images/polaris-icon-minor-mono-dropdown.png" alt="Dropdown Icon" /></th>
+                <th>Amount Due <img src="images/polaris-icon-minor-mono-dropdown.png" alt="Dropdown Icon" /></th>
+                <th>Terms</th>
+                <th>Description <img src="images/polaris-icon-minor-mono-dropdown.png" alt="Dropdown Icon" /></th>
+                <th>PO #</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var invoice in InvoiceList)
+            {
+                <tr>
+                    <td><input type="checkbox" /></td>
+                    <td class="faux-link">@invoice.InvoiceNumber</td>
+                    <td>@invoice.Date.ToShortDateString()</td>
+                    <td>@invoice.DueDate.ToShortDateString()</td>
+                    <td>@invoice.InvoiceTotal.ToString("C")</td>
+                    <td>@invoice.AmountDue.ToString("C")</td>
+                    <td>@invoice.Terms</td>
+                    <td>@invoice.Description</td>
+                    <td>@invoice.PONumber</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="invoice-footer">
+    <span class="selected-invoices">Invoices selected: 0</span>
+    <span class="invoice-total">Total payment amount: $0.00</span>
+</div>
+
+@code {
+    const string Terms = "Discount of $100.00 if paid by 5/2/2020";
+    const string PONumber = "239482";
+    const string Description = "Lorem impsum dlse esliop ehasersv";
+    List<Invoice> InvoiceList { get; set; } = new List<Invoice>();
+
+    protected override void OnInitialized()
+    {
+        // Initialize the Invoices list with some data or fetch from a service
+        InvoiceList = new List<Invoice>
+        {
+            new Invoice { InvoiceNumber = "234239", Date = new DateTime(2018, 10, 30), DueDate = new DateTime(2018, 10, 30), InvoiceTotal = 100.00m, AmountDue = 100.00m, Terms = Terms, Description = Description, PONumber = PONumber},
+            new Invoice { InvoiceNumber = "567567", Date = new DateTime(2018, 10, 30), DueDate = new DateTime(2018, 10, 30), InvoiceTotal = 500.00m, AmountDue = 500.00m, Terms = Terms, Description = Description, PONumber = PONumber},
+            new Invoice { InvoiceNumber = "345454", Date = new DateTime(2018, 10, 30), DueDate = new DateTime(2018, 10, 30), InvoiceTotal = 200.00m, AmountDue = 200.00m, Terms = Terms, Description = Description, PONumber = PONumber},
+            new Invoice { InvoiceNumber = "345454", Date = new DateTime(2018, 10, 30), DueDate = new DateTime(2018, 10, 30), InvoiceTotal = 300.00m, AmountDue = 200.00m, Terms = Terms, Description = Description, PONumber = PONumber},
+            new Invoice { InvoiceNumber = "345345", Date = new DateTime(2018, 10, 30), DueDate = new DateTime(2018, 10, 30), InvoiceTotal = 20.00m, AmountDue = 20.00m, Terms = Terms, Description = Description, PONumber = PONumber}
+        };
+    }
+}

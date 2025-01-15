@@ -1,0 +1,59 @@
+.sale-select-tab {
+    width: 951.7px;
+    height: 62px;
+    margin: 41px 0 51px 19px;
+    padding: 0 570.7px 0 0;
+    display: flex;;
+    text-align: center;
+  }
+
+  .pay-by-ach, .pay-by-cc {
+    width: 188.5px;
+    height: 60.5px;
+    flex-grow: 0;
+    border: solid 1.5px #c4cdd5;
+    font-size: 14px;
+    color: #212b36;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .pay-by-cc:not(.active){
+    border: none;
+  }
+  .pay-by-ach:not(.active){
+    border-bottom: solid 1.5px #c4cdd5;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+
+
+  .pay-by-cc.active, .pay-by-ach.active{
+    border-radius: 5px;
+    border-top: solid 1.5px #c4cdd5;
+    border-left: solid 1.5px #c4cdd5;
+    border-right: solid 1.5px #c4cdd5;
+    border-bottom: none;
+}
+
+.pay-by-cc-content:not(.active), .pay-by-ach-content:not(.active){
+    display:none;
+}
+
+.card-type .active {
+    border-bottom: solid 3px #4d71f6;
+}
+
+.card-type {
+    display:flex;
+    gap: 80px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pay-by-ach-content, .pay-by-cc-content {
+    margin-left: 94.5px;
+}

@@ -9,7 +9,7 @@ main {
 }
 
 .sidebar {
-    background-color: rgba(145, 158, 171, 0.4);
+    background-color: #637381;
     width: 273.5px;
 }
 
@@ -40,10 +40,21 @@ main {
 @media (max-width: 640.98px) {
     .top-row {
         justify-content: space-between;
+        width: 100%;
+        position: absolute;
+        top: 0;
     }
 
     .top-row ::deep a, .top-row ::deep .btn-link {
         margin-left: 0;
+    }
+
+    .sidebar {
+        width: 74.5px;
+    }
+
+    .page {
+        flex-direction: row;
     }
 }
 

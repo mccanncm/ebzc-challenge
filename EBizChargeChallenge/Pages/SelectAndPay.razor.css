@@ -5,8 +5,13 @@
 
 .summary-cards {
     display: flex;
-    gap: 20px;
+    gap: 44px;
     margin-top: 10px;
+}
+@media (max-width: 640.98px) {
+    .summary-cards {
+        flex-direction: column !important;
+    }
 }
 
 .invoice-table-container 

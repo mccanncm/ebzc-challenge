@@ -1,7 +1,25 @@
 ﻿@page "/"
+@using EBizChargeChallenge.Data.Models;
+@using EBizChargeChallenge.Componets;
 
-<PageTitle>Home</PageTitle>
+<div class="header">
+    <h3>Welcome back, Rebecca. Here is a summary of your account.</h3>
+    <div class="summary-cards">
+        @foreach (var card in cards)
+        {
+            <SummaryCard CardDetails="card" />
+        }
+    </div>    
+</div>
 
-<h1>Hello, world!</h1>
 
-Welcome to your new app.
+@code {
+    List<Card> cards = new List<Card> {
+        new Card { CardTitle = "Total amount due", CardValue = "$41,120.23" },
+        new Card { CardTitle = "Open invoices", CardValue = "13" },
+        new Card { CardTitle = "Open sales orders", CardValue = "2" },
+        new Card { CardTitle = "Saved payment methods", CardValue = "4" },
+        new Card { CardTitle = "Auto pay", CardValue = "On" }
+    };
+    
+}

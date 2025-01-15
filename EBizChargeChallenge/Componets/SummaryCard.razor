@@ -1,12 +1,10 @@
-﻿
+﻿@using EBizChargeChallenge.Data.Models;
 @code {
     [Parameter]
-    public string? CardTitle { get; set; } = "";
-    [Parameter]
-    public string? CardValue { get; set; } = "";
+    public Card CardDetails { get; set; } = new Card();
 }
 <div class="card">
     <span class="card-icon">📋</span>
-    <p class="card-value">@CardValue</p>
-    <p class="card-title">@CardTitle</p>
-</div>
+    <p class="card-value">@CardDetails.CardValue</p>
+    <p class="card-title">@CardDetails.CardTitle</p>
+</div> 

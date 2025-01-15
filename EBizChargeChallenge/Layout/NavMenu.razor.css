@@ -1,6 +1,20 @@
 .navbar-toggler {
     border: none;
 }
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="white" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+    width: 20px;
+    margin:1.5px 0 0;
+    flex-grow: 0;
+}
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  background-color: #fff; /* Line color (adjust as needed) */
+  width: 20px; /* Match the icon width */
+  height: 3px; /* Thickness of the lines */
+  position: absolute;
+  left: 0;
+}
 
 .top-row {
     min-height: 3.5rem;

@@ -25,9 +25,18 @@
 
 .step-number-1 {
     display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%234263F9" class="bi bi-1-circle-fill" viewBox="0 0 16 16"%3E%3Cpath d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z"/%3E%3C/svg%3E');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.step-number-2 {
+    display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%234263F9" class="bi bi-1-circle-fill" viewBox="0 0 16 16"%3E%3Cpath d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002H7.971L6.072 5.385v1.271l1.834-1.318h.065V12h1.312z"/%3E%3C/svg%3E');
+    background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%234263F9%22%20class%3D%22bi%20bi-2-circle-fill%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M16%208A8%208%200%201%201%200%208a8%208%200%200%20116%200M6.646%206.24c0-.691.493-1.306%201.336-1.306.756%200%201.313.492%201.236%201.313%201.236%200%20.697-.469%201.23-.902%201.705l-2.971%203.293V12h5.344v-1.107H7.268v-.077l1.974-2.22.096-.107c.688-.763%201.287-1.428%201.287-2.43%200-1.266-1.031-2.215-2.613-2.215-1.758%200-2.637%201.19-2.637%202.402v.065h1.271v-.07Z%22%2F%3E%3C%2Fsvg%3E');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -40,5 +49,5 @@
     border-radius: 25px;
     padding: 25.5px 43.5px 26.5px 21.5px;
     height: 524px;
-    width: 1063px;
+    max-width: 1063px;
 }

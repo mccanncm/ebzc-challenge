@@ -1,4 +1,5 @@
-﻿<div class="sale-select-tab">
+﻿@using EBizChargeChallenge.Data.Models;
+<div class="sale-select-tab">
     <div @onclick="() => SetActiveTab(1)" class="pay-by-cc @GetTabClass(1)">Pay by Credit Card</div>
     <div @onclick="() => SetActiveTab(2)" class="pay-by-ach @GetTabClass(2)">Pay by Bank Account</div>
 </div>
@@ -7,14 +8,51 @@
         <div @onclick="() => SetActiveCardMethodTab(1)" class="saved-card-method @GetActiveCardMethodClass(1)">Saved Card</div>
         <div @onclick="() => SetActiveCardMethodTab(2)" class="new-card-method @GetActiveCardMethodClass(2)">New Card</div>
     </div>
+    <div class="saved-card-content @GetActiveCardMethodClass(1)">
+        Saved Card *
+        <div class="dd-container">
+            <div class="dropdown">            
+                <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+                    @if(savedCards.Count > 0)
+                    {
+                        //todo: move style to css
+                        <img src="@savedCards[0].ImageUrl" alt="@savedCards[0].CardType" style="width: 41px; height: 27px;" />
+                        <span>@savedCards[0].CardType ending in @savedCards[0].LastFourDigits, "@savedCards[0].Preference"</span>
+                    }
+                </button>            
+                <div class="dropdown-menu">
+                    @foreach (var card in savedCards)
+                    {
+                        <a class="dropdown-item" href="#" @onclick="() => SelectCard(card.Id)">
+                            <img src="@card.ImageUrl" alt="@card.CardType" style="width: 41px; height: 27px;" />
+                            @card.CardType ending in @card.LastFourDigits, "@card.Preference"
+                        </a>
+                    }
+                </div>            
+            </div>
+            <div class="manage-payment-methods">Manage Payment Methods</div>
+        </div>
+        
+    </div>
+    <div class="saved-card-sc">
+        Security Code (CVV2 / CVC)
+        <input type="text" style="width: 114px; height: 35px;" />
+    </div>            
+</div>    
+<div class="new-card-content @GetActiveCardMethodClass(2)">Add New Card Content Here</div>
     
-</div>
+
 <div class="pay-by-ach-content @GetTabClass(2)">
     Add ACH Content Here
 </div>
 
 
 @code {
+    List<CreditCard> savedCards = new List<CreditCard> {
+        new CreditCard { Id = 1, CardType = "Visa", LastFourDigits = "1234", ImageUrl = "images/visa.svg", Preference = "main card" },
+        new CreditCard { Id = 2, CardType = "MasterCard", LastFourDigits = "5678", ImageUrl = "images/mastercard.svg", Preference = "main card" },
+        new CreditCard { Id = 3, CardType = "American Express", LastFourDigits = "9012", ImageUrl = "images/amex.svg", Preference = "main card" }
+    };
     private int ActiveTab = 1;
     private int ActiveCardMethodTab = 1;
     private void SetActiveTab(int tab){
@@ -30,5 +68,10 @@
 
     private string GetActiveCardMethodClass(int tab){
         return ActiveCardMethodTab == tab ? "active" : "";
+    }
+    
+    private void SelectCard(int cardId)
+    {
+    // Handle card selection logic here
     }
 }

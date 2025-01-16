@@ -39,8 +39,29 @@
     border-bottom: none;
 }
 
-.pay-by-cc-content:not(.active), .pay-by-ach-content:not(.active){
+.pay-by-cc-content:not(.active), 
+.pay-by-ach-content:not(.active), 
+.saved-card-content:not(.active), 
+.new-card-content:not(.active){
     display:none;
+}
+
+.saved-card-content, .new-card-content {
+    margin-top: 59px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.saved-card-content .dropdown {
+    width: 301.7px;
+    height: 36px;
+    border: .5px solid #c4cdd5;
+    border-radius: 5px;
+    margin-top: 4.5px;
+}
+
+.saved-card-content .dropdown .dropdown-toggle {
+    font-size: 14px;
 }
 
 .card-type .active {
@@ -49,11 +70,36 @@
 
 .card-type {
     display:flex;
-    gap: 80px;
+    gap: 84px;
     font-size: 16px;
     cursor: pointer;
 }
 
 .pay-by-ach-content, .pay-by-cc-content {
     margin-left: 94.5px;
+}
+
+.saved-card-sc{
+    display: flex;
+    width: 114px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 34.5px;
+    flex-direction: column;
+    width: fit-content;
+    font-size: 14px;
+    gap: 7.5px
+}
+
+.dd-container{
+    display: flex;
+    gap: 32.8px;
+}
+.dd-container .manage-payment-methods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0557b7;
+    text-align: left;
+    font-weight: 600;
 }

@@ -56,10 +56,8 @@
 
     .nav-item ::deep a {
         color: #d7d7d7;
-        height: 3rem;
         display: flex;
         align-items: center;
-        line-height: 3rem;
         height: 36px;
     }
 
@@ -97,9 +95,12 @@
     .nav-item {
         height: 61px;
         font-size: 8px;
+        text-align: center;
     }
     .nav-item ::deep a {
         height: 61px;
         flex-direction: column;
+        padding: unset;
+        justify-content: center;
     }   
 }

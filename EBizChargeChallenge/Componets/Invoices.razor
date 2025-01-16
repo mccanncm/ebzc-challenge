@@ -3,7 +3,6 @@
     <table class="invoice-table">
         <thead>
             <tr>
-                <th>Select</th>
                 <th>Invoice #</th>
                 <th>Date <img src="images/polaris-icon-minor-mono-dropdown.png" alt="Dropdown Icon" /></th>
                 <th>Due Date <img src="images/polaris-icon-minor-mono-dropdown.png" alt="Dropdown Icon" /></th>
@@ -18,8 +17,7 @@
             @foreach (var invoice in InvoiceList)
             {
                 <tr>
-                    <td><input type="checkbox" /></td>
-                    <td class="faux-link">@invoice.InvoiceNumber</td>
+                    <td class="faux-link"><input type="checkbox" /> @invoice.InvoiceNumber</td>
                     <td>@invoice.Date.ToShortDateString()</td>
                     <td>@invoice.DueDate.ToShortDateString()</td>
                     <td>@invoice.InvoiceTotal.ToString("C")</td>

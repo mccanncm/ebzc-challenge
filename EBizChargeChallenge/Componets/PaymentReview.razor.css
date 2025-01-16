@@ -1,0 +1,45 @@
+.payment-review {
+    margin-top: 73px;
+
+}
+.payment-review div:not(.pay-button, .total-payment-review) {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #212b36;
+}
+
+.pay-button {
+    width: 430px;
+    height: 36px;
+    flex-grow: 0;
+    display: flex;
+    align-items: center;
+    background-color: #4263f9;
+    justify-content: center;
+    border-radius: 14px;
+    color: #fff;
+    font-weight: 600px;
+}
+
+.pay-button span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.total-payment-review {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    border-top: 1px solid #98a2a8;
+    padding-top:27px;
+    margin-bottom:40px;
+}
+
+.payment-review-info {
+    display:flex;
+    flex-direction: column;
+    gap:21px;
+    margin-bottom: 100px;
+}

@@ -26,8 +26,10 @@
     border-top: 60px solid #f1f1f1;
 }
 
-.invoice-table tbody td:nth-child(2) {
+.invoice-table tbody td:nth-child(1) {
+    display: flex;
     color: #0557b7;
+    gap:36.5px;
 }
 
 .invoice-footer {

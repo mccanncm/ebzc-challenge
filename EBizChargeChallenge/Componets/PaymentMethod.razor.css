@@ -37,6 +37,7 @@
     border-left: solid 1.5px #c4cdd5;
     border-right: solid 1.5px #c4cdd5;
     border-bottom: none;
+    font-weight: bold;
 }
 
 .pay-by-cc-content:not(.active), 
@@ -66,6 +67,7 @@
 
 .card-type .active {
     border-bottom: solid 3px #4d71f6;
+    font-weight: bold;
 }
 
 .card-type {

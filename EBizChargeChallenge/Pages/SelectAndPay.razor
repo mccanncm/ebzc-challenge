@@ -1,28 +1,34 @@
 ﻿@page "/"
 @using EBizChargeChallenge.Data.Models;
 @using EBizChargeChallenge.Componets;
-
-<div class="header">
-    <h3>Welcome back, Rebecca. Here is a summary of your account.</h3>
-    <div class="summary-cards">
-        @foreach (var card in cards)
-        {
-            <SummaryCard CardDetails="card" />
-        }
+    <div class="header">
+        <span>Welcome back, Rebecca. Here is a summary of your account.</span>
+        <div class="summary-cards">
+            @foreach (var card in cards)
+            {
+                <SummaryCard CardDetails="card" />
+            }
+        </div>
     </div>
-</div>
-<div class="invoice-table-container">
-    <div class="step-number-1"></div>
-    <span>Select invoices to pay:</span>
-    
-    <Invoices />
-</div>
+    <div class="invoice-table-container">
+        <div class="step-number-1"></div>
+        <span>Select invoices to pay.</span>
+        
+        <Invoices />
+    </div>
+    <div class="payment-container">
+        <div class="payment-method-container">
+            <div class="step-number-2"></div>
+            <span>Select a payment method</span>
+            <PaymentMethod />
+        </div>
 
-<div class="payment-method-container">
-    <div class="step-number-2"></div>
-    <span>Select a payment method:</span>
-    <PaymentMethod />
-</div>
+        <div class="payment-review-container">
+            <div class="step-number-3"></div>
+            <span>Review payment summary</span>
+            <PaymentReview />
+        </div>
+    </div>
 
 
 @code {

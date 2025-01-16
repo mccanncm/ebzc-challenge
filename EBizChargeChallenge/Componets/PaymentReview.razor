@@ -18,11 +18,49 @@
         <span>$0.00</span>
     </div>
     <div>
-        <div class="pay-button">
+        <div class="pay-button" @onclick="OpenPaymentModal">
             <span>Pay Now</span>
         </div>
     </div>
 </div>
+@if (IsModalOpen)
+{
+    <div class="modal-overlay" @onclick="CloseModal">
+        <div class="modal-content" @onclick:stopPropagation>
+            <span class="close-button" @onclick="CloseModal">&times;</span>
+            <h2>My Saved Payment Methods</h2>
+            <div class="saved-select-tab">
+                <div @onclick="() => SetActiveTab(1)" class="cc @GetTabClass(1)">Credit Cards</div>
+                <div @onclick="() => SetActiveTab(2)" class="ach @GetTabClass(2)">ACH Accounts</div>
+            </div>
+            <div class="saved-cc-content @GetTabClass(1)">
+                <!-- #todo 
+                todo:# Add card selector
+                todo:# Add card input section
+                todo:# Add delete card button
+                -->
+            </div>
+        </div>
+    </div>
+}
 @code {
+    private bool IsModalOpen = false;
+    private int ActiveTab = 1;
 
+    private void OpenPaymentModal()
+    {
+        IsModalOpen = true;
+    }
+
+    private void CloseModal()
+    {
+        IsModalOpen = false;
+    }    
+
+    private void SetActiveTab(int tab){
+        ActiveTab = tab;
+    }
+    private string GetTabClass(int tab){
+        return ActiveTab == tab ? "active" : "";
+    }
 }

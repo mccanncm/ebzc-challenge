@@ -63,8 +63,9 @@
     background: white;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 500px;
+    box-shadow: 0 3px 6px;
+    max-width: 1296px;
+    max-height: 915px;
     text-align: center;
 }
 
@@ -98,4 +99,35 @@
 
 .close-button:hover {
     color: #4d71f6;
+}
+
+.saved-cc-collection {
+    width: 199px;
+    height: 498px;
+    flex-grow: 0;
+    padding: 11.5px 0.2px 75.5px 0.2px;
+    border: solid 1px #c4cdd5;
+    margin-top:48.5px;
+    margin-right:66px;
+}
+
+.selected-cc-information {
+    margin-top:48.5px;
+}
+
+.saved-cc-content {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+}
+
+.saved-cc-content:not(.active){
+    visibility: hidden;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }

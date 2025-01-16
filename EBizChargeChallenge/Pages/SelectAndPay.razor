@@ -26,7 +26,7 @@
         <div class="payment-review-container">
             <div class="step-number-3"></div>
             <span>Review payment summary</span>
-            <PaymentReview />
+            <PaymentReview MemberInfo="cardMemberInfos" />
         </div>
     </div>
 
@@ -38,6 +38,12 @@
         new Card { CardTitle = "Open sales orders", CardValue = "2" },
         new Card { CardTitle = "Saved payment methods", CardValue = "4" },
         new Card { CardTitle = "Auto pay", CardValue = "On" }
+    };
+
+    List<CardMemberInfo> cardMemberInfos = new List<CardMemberInfo> {
+        new CardMemberInfo { MemberCreditCard = new CreditCard { Id = 1, CardType = "Visa", LastFourDigits = "1234", ImageUrl = "images/visa.svg", Preference = "main card" }, BillingAddress = "1234 Main St. Springfield, IL 62701", CardNickname = "Visa - 1234", ExpireMonth = 12, ExpireYear = 2023, NameOnCard = "Rebecca Smith" },
+        new CardMemberInfo { MemberCreditCard = new CreditCard { Id = 1, CardType = "Visa", LastFourDigits = "1234", ImageUrl = "images/visa.svg", Preference = "main card" }, BillingAddress = "1234 Main St. Springfield, IL 62701", CardNickname = "Visa - 1234", ExpireMonth = 12, ExpireYear = 2023, NameOnCard = "Rebecca Smith" },
+        new CardMemberInfo { MemberCreditCard = new CreditCard { Id = 1, CardType = "Visa", LastFourDigits = "1234", ImageUrl = "images/visa.svg", Preference = "main card" }, BillingAddress = "1234 Main St. Springfield, IL 62701", CardNickname = "Visa - 1234", ExpireMonth = 12, ExpireYear = 2023, NameOnCard = "Rebecca Smith" }
     };
     
 }

@@ -1,4 +1,5 @@
-﻿<div class="payment-review">
+﻿@using EBizChargeChallenge.Data.Models;
+<div class="payment-review">
     <div class="payment-review-info">
         <div>
             <span># of invoices selected:</span>
@@ -39,11 +40,45 @@
                 todo:# Add card input section
                 todo:# Add delete card button
                 -->
+                <div class="saved-cc-collection">
+                    @foreach(var member in MemberInfo)
+                    {
+                        <div class="saved-cc-card">
+                            <div class="cc-info">
+                                <img src="@member.MemberCreditCard.ImageUrl" alt="card" />
+                                <span>@member.MemberCreditCard.CardType</span>
+                                <span>**** **** **** @member.MemberCreditCard.LastFourDigits</span>
+                                <span>@member.MemberCreditCard.Preference</span>
+                            </div>
+                            <div class="cc-action">
+                                <span>Edit</span>
+                                <span>Delete</span>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="selected-cc-information">
+                    <div class="info-row">
+                        <input type="text" id="CardNumber" placeholder="Card Number *" />
+                        <input type="text" id="BillingAddress" placeholder="Billing Address *" />
+                    </div>
+                    <div class="info-row">
+                        <input type="text" id="NameOnCard" placeholder="Name on Card *" />
+                        <input type="text" id="ZipCode" placeholder="Zip Code / Postal Code *" />
+                        <input type="text" id="Nickname" placeholder="Card Nickname" />
+                    </div>
+                    <div class="info-row">
+                        <input id="Month" type="number" />
+                        <input id="Year" type="number" />
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 }
 @code {
+    [Parameter]
+    public List<CardMemberInfo> MemberInfo { get; set; } = new List<CardMemberInfo>();
     private bool IsModalOpen = false;
     private int ActiveTab = 1;
 
@@ -64,3 +99,6 @@
         return ActiveTab == tab ? "active" : "";
     }
 }
+
+
+

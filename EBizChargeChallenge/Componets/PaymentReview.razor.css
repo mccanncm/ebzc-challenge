@@ -129,9 +129,13 @@
     visibility: hidden;
 }
 
-.info-row {
+[class^="info-row-"] {
     display: flex;
     flex-direction: row;
+}
+
+.info-row-1 {
+    justify-content: space-between;
 }
 
 .input-width-1 {

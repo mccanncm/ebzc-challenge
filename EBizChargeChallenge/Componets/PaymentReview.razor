@@ -1,0 +1,104 @@
+﻿@using EBizChargeChallenge.Data.Models;
+<div class="payment-review">
+    <div class="payment-review-info">
+        <div>
+            <span># of invoices selected:</span>
+            <span>0</span>
+        </div>
+        <div>
+            <span>Invoices payment amount:</span>
+            <span>$0.00</span>
+        </div>
+        <div>
+            <span>3% card convenience fee:</span>
+            <span>$0.00</span>
+        </div>
+    </div>
+    <div class="total-payment-review">
+        <span>Total payment amount:</span>
+        <span>$0.00</span>
+    </div>
+    <div>
+        <div class="pay-button" @onclick="OpenPaymentModal">
+            <span>Pay Now</span>
+        </div>
+    </div>
+</div>
+@if (IsModalOpen)
+{
+    <div class="modal-overlay" @onclick="CloseModal">
+        <div class="modal-content" @onclick:stopPropagation>
+            <span class="close-button" @onclick="CloseModal">&times;</span>
+            <h2>My Saved Payment Methods</h2>
+            <div class="saved-select-tab">
+                <div @onclick="() => SetActiveTab(1)" class="cc @GetTabClass(1)">Credit Cards</div>
+                <div @onclick="() => SetActiveTab(2)" class="ach @GetTabClass(2)">ACH Accounts</div>
+            </div>
+            <div class="saved-cc-content @GetTabClass(1)">
+                <!-- #todo 
+                todo:# Add card selector
+                todo:# Add card input section
+                todo:# Add delete card button
+                -->
+                <div class="saved-cc-collection">
+                    @foreach(var member in MemberInfo)
+                    {
+                        <div class="saved-cc-card">
+                            <div class="cc-info">
+                                <img src="@member.MemberCreditCard.ImageUrl" alt="card" />
+                                <span>@member.MemberCreditCard.CardType</span>
+                                <span>**** **** **** @member.MemberCreditCard.LastFourDigits</span>
+                                <span>@member.MemberCreditCard.Preference</span>
+                            </div>
+                            <div class="cc-action">
+                                <span>Edit</span>
+                                <span>Delete</span>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="selected-cc-information">
+                    <div class="info-row">
+                        <input class="input-width-1" type="text" id="CardNumber" placeholder="Card Number *" />
+                        <input class="input-width-1" type="text" id="BillingAddress" placeholder="Billing Address *" />
+                    </div>
+                    <div class="info-row">
+                        <input class="input-width-1" type="text" id="NameOnCard" placeholder="Name on Card *" />
+                        <input class="input-width-2" type="text" id="ZipCode" placeholder="Zip Code / Postal Code *" />
+                        <input class="input-width-2" type="text" id="Nickname" placeholder="Card Nickname" />
+                    </div>
+                    <div class="info-row">
+                        <input class="input-width-3" id="Month" type="number" />
+                        <input class="input-width-3" id="Year" type="number" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+@code {
+    [Parameter]
+    public List<CardMemberInfo> MemberInfo { get; set; } = new List<CardMemberInfo>();
+    private bool IsModalOpen = false;
+    private int ActiveTab = 1;
+
+    private void OpenPaymentModal()
+    {
+        IsModalOpen = true;
+    }
+
+    private void CloseModal()
+    {
+        IsModalOpen = false;
+    }    
+
+    private void SetActiveTab(int tab){
+        ActiveTab = tab;
+    }
+    private string GetTabClass(int tab){
+        return ActiveTab == tab ? "active" : "";
+    }
+}
+
+
+

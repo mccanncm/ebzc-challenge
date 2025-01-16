@@ -1,10 +1,25 @@
 .navbar-toggler {
-    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath stroke="white" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+    width: 20px;
+    margin:1.5px 0 0;
+    flex-grow: 0;
+}
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+  background-color: #fff;
+  width: 20px; 
+  height: 3px;
+  position: absolute;
+  left: 0;
 }
 
 .top-row {
     min-height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+    height: 73px;
+    background-color: #F4F6F8;
 }
 
 .navbar-brand {
@@ -34,42 +49,35 @@
 }
 
 .nav-item {
-    font-size: 0.9rem;
+    font-size: 14px;
     padding-bottom: 0.5rem;
+    height: 36px;
 }
-
-    .nav-item:first-of-type {
-        padding-top: 1rem;
-    }
-
-    .nav-item:last-of-type {
-        padding-bottom: 1rem;
-    }
 
     .nav-item ::deep a {
         color: #d7d7d7;
-        border-radius: 4px;
-        height: 3rem;
         display: flex;
         align-items: center;
-        line-height: 3rem;
+        height: 36px;
     }
 
 .nav-item ::deep a.active {
-    background-color: rgba(255,255,255,0.37);
+    background-color: rgba(255,255,255,0.13);
     color: white;
+    border-left: 4px solid #fff;
 }
 
 .nav-item ::deep a:hover {
     background-color: rgba(255,255,255,0.1);
     color: white;
+    border-left: 4px solid #fff;
+}
+
+.top-row-toggler{
+    background-color: #637381;
 }
 
 @media (min-width: 641px) {
-    .navbar-toggler {
-        display: none;
-    }
-
     .collapse {
         /* Never collapse the sidebar for wide screens */
         display: block;
@@ -79,5 +87,20 @@
         /* Allow sidebar to scroll for tall menus */
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
+        background-color: #637381;
     }
+}
+
+@media (max-width: 640.98px) {
+    .nav-item {
+        height: 61px;
+        font-size: 8px;
+        text-align: center;
+    }
+    .nav-item ::deep a {
+        height: 61px;
+        flex-direction: column;
+        padding: unset;
+        justify-content: center;
+    }   
 }

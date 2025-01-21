@@ -33,17 +33,17 @@
 
 @code {
     List<Card> cards = new List<Card> {
-        new Card { CardTitle = "Total amount due", CardValue = "$4,120.23" },
-        new Card { CardTitle = "Open invoices", CardValue = "13" },
-        new Card { CardTitle = "Open sales orders", CardValue = "2" },
-        new Card { CardTitle = "Saved payment methods", CardValue = "4" },
-        new Card { CardTitle = "Auto pay", CardValue = "On" }
+        new Card { CardTitle = "Total amount due", CardValue = "$4,120.23", CardIcon = "images/Dashboard/AmountDue.png" },
+        new Card { CardTitle = "Open invoices", CardValue = "13", CardIcon = "images/Dashboard/Invoices.png" },
+        new Card { CardTitle = "Open sales orders", CardValue = "2", CardIcon = "images/Dashboard/SalesOrders.png" },
+        new Card { CardTitle = "Saved payment methods", CardValue = "4", CardIcon = "images/Dashboard/Credits.png" },
+        new Card { CardTitle = "Auto pay", CardValue = "On", CardIcon = "images/Dashboard/AutoPay.png" }
     };
 
     List<CardMemberInfo> cardMemberInfos = new List<CardMemberInfo> {
-        new CardMemberInfo { MemberCreditCard = new CreditCard { Id = 1, CardType = "Visa", LastFourDigits = "1234", ImageUrl = "images/visa.svg", Preference = "main card" }, BillingAddress = "1234 Main St. Springfield, IL 62701", CardNickname = "Visa - 1234", ExpireMonth = 12, ExpireYear = 2023, NameOnCard = "Rebecca Smith" },
-        new CardMemberInfo { MemberCreditCard = new CreditCard { Id = 1, CardType = "Visa", LastFourDigits = "1234", ImageUrl = "images/visa.svg", Preference = "main card" }, BillingAddress = "1234 Main St. Springfield, IL 62701", CardNickname = "Visa - 1234", ExpireMonth = 12, ExpireYear = 2023, NameOnCard = "Rebecca Smith" },
-        new CardMemberInfo { MemberCreditCard = new CreditCard { Id = 1, CardType = "Visa", LastFourDigits = "1234", ImageUrl = "images/visa.svg", Preference = "main card" }, BillingAddress = "1234 Main St. Springfield, IL 62701", CardNickname = "Visa - 1234", ExpireMonth = 12, ExpireYear = 2023, NameOnCard = "Rebecca Smith" }
+        new CardMemberInfo { MemberCreditCard = new CreditCard { Id = 1, CardType = "MasterCard", LastFourDigits = "1234", ImageUrl = "images/Mastercard.png", Preference = "main card" }, BillingAddress = "1234 Main St. Springfield, IL 62701", CardNickname = "Visa - 1234", ExpireMonth = 12, ExpireYear = 2023, NameOnCard = "Rebecca Smith" },
+        new CardMemberInfo { MemberCreditCard = new CreditCard { Id = 1, CardType = "MasterCard", LastFourDigits = "1234", ImageUrl = "images/Mastercard.png", Preference = "main card" }, BillingAddress = "1234 Main St. Springfield, IL 62701", CardNickname = "Visa - 1234", ExpireMonth = 12, ExpireYear = 2023, NameOnCard = "Rebecca Smith" },
+        new CardMemberInfo { MemberCreditCard = new CreditCard { Id = 1, CardType = "MasterCard", LastFourDigits = "1234", ImageUrl = "images/Mastercard.png", Preference = "main card" }, BillingAddress = "1234 Main St. Springfield, IL 62701", CardNickname = "Visa - 1234", ExpireMonth = 12, ExpireYear = 2023, NameOnCard = "Rebecca Smith" }
     };
     
 }

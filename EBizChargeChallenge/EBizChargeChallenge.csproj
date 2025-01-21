@@ -13,6 +13,8 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\images\Dashboard\" />
+    <Folder Include="wwwroot\images\Navigation\" />
   </ItemGroup>
 
 </Project>

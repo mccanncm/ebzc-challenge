@@ -1,0 +1,107 @@
+.sale-select-tab[b-1v7ao8shiq] {
+    width: 951.7px;
+    height: 62px;
+    margin: 41px 0 51px 19px;
+    padding: 0 570.7px 0 0;
+    display: flex;;
+    text-align: center;
+  }
+
+  .pay-by-ach[b-1v7ao8shiq], .pay-by-cc[b-1v7ao8shiq] {
+    width: 188.5px;
+    height: 60.5px;
+    flex-grow: 0;
+    border: solid 1.5px #c4cdd5;
+    font-size: 14px;
+    color: #212b36;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .pay-by-cc:not(.active)[b-1v7ao8shiq]{
+    border: none;
+  }
+  .pay-by-ach:not(.active)[b-1v7ao8shiq]{
+    border-bottom: solid 1.5px #c4cdd5;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+  }
+
+
+  .pay-by-cc.active[b-1v7ao8shiq], .pay-by-ach.active[b-1v7ao8shiq]{
+    border-radius: 5px;
+    border-top: solid 1.5px #c4cdd5;
+    border-left: solid 1.5px #c4cdd5;
+    border-right: solid 1.5px #c4cdd5;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+.pay-by-cc-content:not(.active)[b-1v7ao8shiq], 
+.pay-by-ach-content:not(.active)[b-1v7ao8shiq], 
+.saved-card-content:not(.active)[b-1v7ao8shiq], 
+.new-card-content:not(.active)[b-1v7ao8shiq]{
+    display:none;
+}
+
+.saved-card-content[b-1v7ao8shiq], .new-card-content[b-1v7ao8shiq] {
+    margin-top: 59px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.saved-card-content .dropdown[b-1v7ao8shiq] {
+    width: 301.7px;
+    height: 36px;
+    border: .5px solid #c4cdd5;
+    border-radius: 5px;
+    margin-top: 4.5px;
+}
+
+.saved-card-content .dropdown .dropdown-toggle[b-1v7ao8shiq] {
+    font-size: 14px;
+}
+
+.card-type .active[b-1v7ao8shiq] {
+    border-bottom: solid 3px #4d71f6;
+    font-weight: bold;
+}
+
+.card-type[b-1v7ao8shiq] {
+    display:flex;
+    gap: 84px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pay-by-ach-content[b-1v7ao8shiq], .pay-by-cc-content[b-1v7ao8shiq] {
+    margin-left: 94.5px;
+}
+
+.saved-card-sc[b-1v7ao8shiq]{
+    display: flex;
+    width: 114px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 34.5px;
+    flex-direction: column;
+    width: fit-content;
+    font-size: 14px;
+    gap: 7.5px
+}
+
+.dd-container[b-1v7ao8shiq]{
+    display: flex;
+    gap: 32.8px;
+}
+.dd-container .manage-payment-methods[b-1v7ao8shiq] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0557b7;
+    text-align: left;
+    font-weight: 600;
+}

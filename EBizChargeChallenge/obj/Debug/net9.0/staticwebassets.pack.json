@@ -1,0 +1,457 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\obj\\Debug\\net9.0\\scopedcss\\bundle\\EBizChargeChallenge.styles.css",
+      "PackagePath": "staticwebassets\\EBizChargeChallenge.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Dashboard\\AmountDue.png",
+      "PackagePath": "staticwebassets\\images\\Dashboard\\AmountDue.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Dashboard\\AutoPay.png",
+      "PackagePath": "staticwebassets\\images\\Dashboard\\AutoPay.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Dashboard\\Credits.png",
+      "PackagePath": "staticwebassets\\images\\Dashboard\\Credits.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Dashboard\\Invoices.png",
+      "PackagePath": "staticwebassets\\images\\Dashboard\\Invoices.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Dashboard\\SalesOrders.png",
+      "PackagePath": "staticwebassets\\images\\Dashboard\\SalesOrders.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Mastercard.png",
+      "PackagePath": "staticwebassets\\images\\Mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Navigation\\AutoPayments.png",
+      "PackagePath": "staticwebassets\\images\\Navigation\\AutoPayments.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Navigation\\Hamburger.png",
+      "PackagePath": "staticwebassets\\images\\Navigation\\Hamburger.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Navigation\\MyAccount.png",
+      "PackagePath": "staticwebassets\\images\\Navigation\\MyAccount.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Navigation\\QuickPayments.png",
+      "PackagePath": "staticwebassets\\images\\Navigation\\QuickPayments.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Navigation\\Reports.png",
+      "PackagePath": "staticwebassets\\images\\Navigation\\Reports.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Navigation\\SelectnPay.png",
+      "PackagePath": "staticwebassets\\images\\Navigation\\SelectnPay.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Step1.png",
+      "PackagePath": "staticwebassets\\images\\Step1.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Step2.png",
+      "PackagePath": "staticwebassets\\images\\Step2.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\Step3.png",
+      "PackagePath": "staticwebassets\\images\\Step3.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\amex.svg",
+      "PackagePath": "staticwebassets\\images\\amex.svg"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\mastercard.svg",
+      "PackagePath": "staticwebassets\\images\\mastercard.svg"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-major-2-tone-reports-background.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-major-2-tone-reports-background.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-major-2-tone-reports-background@2x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-major-2-tone-reports-background@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-major-2-tone-reports-background@3x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-major-2-tone-reports-background@3x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-cancel-background.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-cancel-background.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-cancel-background@2x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-cancel-background@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-cancel-background@3x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-cancel-background@3x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown2.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown2.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown2@2x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown2@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown2@3x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown2@3x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown3.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown3.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown3@2x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown3@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown3@3x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown3@3x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown4.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown4.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown4@2x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown4@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown4@3x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown4@3x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown5.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown5.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown5@2x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown5@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown5@3x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown5@3x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown6.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown6.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown6@2x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown6@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown6@3x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown6@3x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown7.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown7.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown7@2x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown7@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown7@3x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown7@3x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown@2x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-dropdown@3x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-dropdown@3x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-search.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-search.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-search2.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-search2.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-search2@2x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-search2@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-search2@3x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-search2@3x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-search@2x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-search@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-search@3x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-search@3x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-select.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-select.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-select2.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-select2.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-select2@2x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-select2@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-select2@3x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-select2@3x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-select@2x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-select@2x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\polaris-icon-minor-mono-select@3x.png",
+      "PackagePath": "staticwebassets\\images\\polaris-icon-minor-mono-select@3x.png"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\images\\visa.svg",
+      "PackagePath": "staticwebassets\\images\\visa.svg"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Caleb McCann\\Documents\\working\\ebzc-challenge\\EBizChargeChallenge\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.EBizChargeChallenge.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.EBizChargeChallenge.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.EBizChargeChallenge.props",
+      "PackagePath": "build\\EBizChargeChallenge.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.EBizChargeChallenge.props",
+      "PackagePath": "buildMultiTargeting\\EBizChargeChallenge.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.EBizChargeChallenge.props",
+      "PackagePath": "buildTransitive\\EBizChargeChallenge.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
